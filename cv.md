@@ -26,7 +26,7 @@ Front-end development interested me as one of the most modern, actively developi
 * Adobe Photoshop, ARCHICAD, 3dsMax
  ---- 
 ### Courses:
-* HTML and CSS Tutorials on the [Code Basics](https://ru.code-basics.com/) (in progress)
+* HTML and CSS Tutorials on the [Code Basics](https://ru.code-basics.com/) (done)
 * JavaScript Manual on [learnjavascript.ru](https://learn.javascript.ru/) (in progress)
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 ----
