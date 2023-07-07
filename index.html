@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/img/icon.ico">
+    <title>cv</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+   <div class="wrapper">
+        <header class="header">
+            <div class="cotnainer">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                        <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                        <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                    </ul>
+                </nav>
+         </div>
+        </header>
+        <main class="main">
+            <section class="main-container" id="name">
+                <h1 class=".section-title">Denis Berdnikov</h1>
+            </section>
+            <div class="main-container" id="image">
+                <img src="assets/img/my_foto.jpg" alt="my photo">
+            </div>
+            <section class="main-container" id="profile">
+                <h2 class="section-title">Designer.  Artist.  Junior Frontend Developer</h2>
+            </section>
+            <section class="main-container" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul>
+                    <li>Phone: +7927 208 05 87</li>
+                    <li>E-mail: art_studio121@inbox.ru</li>
+                    <li>GitHub:art-studio121 https://github.com/art-studio121</li>
+                </ul>
+            </section>
+            <section class="main-container" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>I am 49 years old. As a designer, I started my career in 2002 by creating Art Studio company. At first,
+                    the main activity of the company was the design and decoration of interiors. Then we moved on to
+                    creating design projects for private houses.</p>
+                <p>In parallel, starting as a teenager, I did not stop painting. Having joined the Creative Union of Artists
+                    of Russia in 2014, I began to take an active part in the exhibition activities of the union with my
+                    paintings. For which, in 2019, the leadership of the union was awarded a diploma "For contribution to
+                    the domestic fine arts."</p>
+                <p>Since 2017, as a senior lecturer at the Samara State Technical University, I have been teaching such
+                    subjects as: _design; technical aesthetics; composition, painting and color science; drawing, sculpture;
+                    artistic graphics software systems; art history.</p>
+                <p>Front-end development interested me as one of the most modern, actively developing types of activity, in
+                    which the knowledge and skills I already have can be in demand and widely applicable.</p>
+            </section>
+            <section class="main-container" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>Academic drawing and painting: genre scenes, landscape, portrait, still life</li>
+                    <li>Graphics: Adobe Photoshop, 3dsMax, Archicad</li>
+                    <li>Web-development: HTML, CSS</li>
+                    <li>Version control: Git, GitHub</li>
+                </ul>
+            </section>
+            <section class="main-container" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul>
+                    <li>HTML and CSS Tutorials on the Code Basics(https://ru.code-basics.com/) (done)</li>
+                    <li>JavaScript Manual on learnjavascript.ru(https://learn.javascript.ru/) (in progress)</li>
+                </ul>
+            </section>
+            <section class="main-container" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre>
+                    <code>
+                        var text = "Hello, World!";
+                        var delay = 100;
+                        var elem = document.getElementById("result");
+
+                        var print_text = function(text, elem, delay) {
+                            if(text.length > 0) {
+                                elem.innerHTML += text[0];
+                                setTimeout(
+                                    function() {
+                                        print_text(text.slice(1), elem, delay);
+                                    }, delay
+                                );
+                            }
+                        }
+                        print_text(text, elem, delay); 
+                    </code>
+                </pre>
+            </section>
+            <section class="main-container" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>Samara State Pedagogical University</p>
+            </section>
+            <section class="main-container" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul>
+                    <li>Russian – Native</li>
+                    <li>English - B1-Pre-Intermediate</li>
+                </ul>
+            </section>
+
+        </main>
+        <footer class="footer">
+            <div class="block">
+                <nav class="end">
+                    <ul class="end-foot">
+                        <li class="end-item"><a href="https://github.com/art-studio121/rsschool-cv"><img src="assets/img/github_logo_icon.png" width="20" height="20"  alt="github logo icon"></a></li>
+                        <li class="end-item">2023</li>
+                        <li class="end-item"><a href="https://rs.school/js/"><img src="assets/img/logo_rsschool.png" width="56" height="20" alt="logo rsschool"></a></li>
+                    </ul>
+                </nav>
+
+            </div>
+        </footer>
+   </div>
+
+</body>
+
+</html>
